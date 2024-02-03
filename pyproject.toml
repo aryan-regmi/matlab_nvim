@@ -20,8 +20,8 @@ nitpick = "^0.35.0"
 [tool.nitpick]
 style = "https://raw.githubusercontent.com/wemake-services/wemake-python-styleguide/master/styles/nitpick-style-wemake.toml"
 
-# [tool.poetry.dependencies]
-# python = "^3.12"
+[tool.poetry.dependencies]
+python = "^3.12"
 
 [build-system]
 requires = ["poetry-core"]
