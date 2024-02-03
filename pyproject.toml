@@ -6,6 +6,7 @@ authors = ["Aryan Regmi <aryan_regmi@protonmail.com>"]
 readme = "README.md"
 
 [virtualenvs]
+in-project = true
 prefer-active-python = true
 
 [tool.poetry.group.dev.dependencies]
@@ -19,12 +20,12 @@ nitpick = "^0.35.0"
 [tool.nitpick]
 style = "https://raw.githubusercontent.com/wemake-services/wemake-python-styleguide/master/styles/nitpick-style-wemake.toml"
 
-[tool.poetry.dependencies]
-python = "^3.11"
+# [tool.poetry.dependencies]
+# python = "^3.12"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
-[tool.poetry.scripts]
+# [tool.poetry.scripts]
 # start = "matlab_nvim.scripts.start_server:start"
