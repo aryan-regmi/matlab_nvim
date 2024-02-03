@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "matlab-nvim"
+version = "0.1.0"
+description = ""
+authors = ["Aryan Regmi <aryan_regmi@protonmail.com>"]
+readme = "README.md"
+
+[virtualenvs]
+prefer-active-python = true
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+pytest-cov = "^4.1.0"
+wemake-python-styleguide = "^0.18.0"
+mypy = "^1.8.0"
+safety = "^3.0.1"
+nitpick = "^0.35.0"
+
+[tool.nitpick]
+style = "https://raw.githubusercontent.com/wemake-services/wemake-python-styleguide/master/styles/nitpick-style-wemake.toml"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+# [tool.poetry.scripts]
+# start = "matlab_nvim.scripts.start_server:start"
