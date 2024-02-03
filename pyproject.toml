@@ -26,5 +26,5 @@ python = "^3.11"
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
-# [tool.poetry.scripts]
+[tool.poetry.scripts]
 # start = "matlab_nvim.scripts.start_server:start"
